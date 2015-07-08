@@ -1,0 +1,23 @@
+@import "_/config";
+
+// Standard modules:
+@import "compass/reset";
+@import "normalize";
+
+// Outside libraries:
+@import "../vendor/fontawesome/scss/font-awesome";
+
+// Others useful modules:
+// @import "compass/css3";
+// @import "compass/layout"
+// @import "compass/typography"
+// @import "compass/utilities"
+
+
+// Main styles:
+
+@import "_/default";
+
+@import "_/header";
+@import "_/main";
+@import "_/footer";

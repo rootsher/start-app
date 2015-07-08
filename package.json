@@ -1,0 +1,13 @@
+{
+    "name": "start-app",
+    "version": "0.1.0",
+    "contributors": [
+        {
+            "name": "Konrad Kowalski",
+            "email": "rootsher@gmail.com"
+        }
+    ],
+    "dependencies": {
+        "express": "4.13.x"
+    }
+}

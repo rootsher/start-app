@@ -1,0 +1,12 @@
+{
+    "name": "start-app",
+    "version": "0.1.0",
+    "authors": [
+        { "name": "Konrad Kowalski", "email": "rootsher@gmail.com" }
+    ],
+    "dependencies": {
+        "when": "3.7.x",
+        "fontawesome": "4.3.x",
+        "eventemitter2": "0.4.x"
+    }
+}
