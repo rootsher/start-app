@@ -2,7 +2,8 @@ require.config({
     baseUrl: '/src/modules',
     paths: {
         when: '/vendor/when',
-        EventEmitter: '/vendor/eventemitter2/lib/eventemitter2'
+        EventEmitter: '/vendor/eventemitter2/lib/eventemitter2',
+        uuid: '/vendor/node-uuid/uuid'
     }
 });
 
@@ -12,7 +13,8 @@ require([ 'EventEmitter' ], function config(EventEmitter) {
     });
 });
 
-require([ 'when/when', 'when/node', 'when/callbacks' ], function run(when, nodefn, callbacks) {
+require([ 'when/when', 'when/node', 'when/callbacks', 'uuid' ], function run(when, nodefn, callbacks, uuid) {
+    console.log('@', uuid.v4());
     // Register handler for message.
     eventEmitter.on('message', function (message) {
         console.log('@', message);
