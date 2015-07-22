@@ -7,7 +7,7 @@ var host = 'http://127.0.0.1';
 var port = (argv[0] || 5001);
 
 
-app.use(express.static('app'));
+app.use(express.static(__dirname + '/app'));
 
 console.log('>', host + ':' + port);
 
