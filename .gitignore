@@ -1,2 +1,4 @@
 app/css/
 node_modules/
+app/vendor/*
+!app/vendor/require
