@@ -8,6 +8,7 @@
         "when": "3.7.x",
         "fontawesome": "4.3.x",
         "eventemitter2": "0.4.x",
-        "node-uuid": "1.4.x"
+        "node-uuid": "1.4.x",
+        "lodash": "3.10.x"
     }
 }
